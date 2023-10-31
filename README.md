@@ -41,7 +41,7 @@ Le projet se compose de deux parties distinctes :
   - `components/AlarmSelector.tsx` : Gère le composant d'affichage du sélecteur de date et du nom de la nouvelle alarme.
   - `components/AlarmsList.tsx` : Gère le composant d'affichage de la liste des alarmes.
   - `components/Clock.tsx` : Gère le composant d'affichage de l'horloge.
-  - `components/MainWindow.tsx` : Gère le composant de la fenêtre principale, contenant la liste des alarmes manquées, à venir, l'espace de création d'une nouvelle alarme et l'horloge.
+  - `components/MainWindow.tsx` : Gère le composant de la fenêtre principale, contenant l'espace de création d'une nouvelle alarme et l'horloge.
   - `components/Separators.tsx` : Gère les composants d'affichage de séparateur.
   - `context/AlarmContext.tsx` : Gère le contexte nécessaire à la gestion des alarmes.
   - `context/DateContext.tsx` : Gère le contexte nécessaire à la gestion de la date.
