@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Ethnocentric';
+  src:
+    local('Ethnocentric'),
+    url(./fonts/ethnocentric-rg.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Technology';
+  src:
+    local('Technology'),
+    url(./fonts/Technology.ttf) format('opentype');
+}
+
+@layer base {
+  body {
+    @apply overflow-hidden text-primary font-secondary bgGrBr;
+  }
+  .bgGrBr {
+    @apply bg-gradient-to-br from-slate-100 from-10% via-slate-300 via-30% to-slate-100 to-90%;
+  }
+  .bgGrTr {
+    @apply bg-gradient-to-br from-slate-100 from-10% via-slate-200 via-30% to-slate-100 to-90%;
+  }
+  .btn {
+    @apply py-[18px] px-[25px] h-[33px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-slate-600 text-white;
+  }
+  .time {
+    @apply w-full mx-4 font-tertiary font-extrabold tracking-widest text-[4vh] sm:text-[5vh] md:text-[6vh] lg:text-[7vh] xl:text-[9vh] border-2 border-slate-400 rounded-full text-primary bgGrTr;
+  }
+  .alarm {
+    @apply font-tertiary tracking-wider text-[3vh] md:text-[5vh] xl:text-[8vh] blink;
+  }
+  .title {
+    @apply py-2 font-primary text-[1vh] sm:text-[1.25vh] md:text-[1.5vh] lg:text-[1.75vh] xl:text-[2.25vh] text-primary;
+  }
+  .scrollable {
+    @apply overflow-y-scroll scrollbar scrollbar-w-1 scrollbar-thumb-gray-700 scrollbar-thumb-rounded-full scrollbar-track-rounded-full;
+  }
+  .large-separator-h {
+    @apply mx-[10%] border-b-2 border-b-slate-400;
+  }
+  .small-separator-h {
+    @apply mx-[22%] border-b-2 border-b-slate-400;
+  }
+  .blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+}
