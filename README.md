@@ -81,7 +81,7 @@ npm install
 npm start
 ```
 
-Si vous souhaitez apporter des modifications au style, exécutez le script suivant depuis la racine du projet pour permettre à Tailwind CSS de générer la feuille de style appropriée :
+Si vous souhaitez apporter des modifications au style, exécutez la commande suivante depuis la racine du projet pour permettre à Tailwind CSS de générer la feuille de style appropriée :
 
 ```bash
 npx tailwindcss -i ./src/renderer/style/index.css -o ./src/renderer/style/App.css --watch
