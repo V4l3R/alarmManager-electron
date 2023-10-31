@@ -6,8 +6,7 @@ Table des Matières
 - [Améliorations Possibles](#améliorations-possibles)
 - [Mise en Place](#mise-en-place)
 
-Ce projet a été créé à partir d'un boilerplate intégrant Electron et React.
-Lien du boilerplate : https://github.com/electron-react-boilerplate/electron-react-boilerplate
+Ce projet a été créé à partir d'un boilerplate intégrant Electron et React: https://github.com/electron-react-boilerplate/electron-react-boilerplate
 
 ## Structure
 
