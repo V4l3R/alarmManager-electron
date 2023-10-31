@@ -61,7 +61,7 @@ Le projet se compose de deux parties distinctes :
 ### Niveau Design
 
 - Afficher les listes d'alarmes uniquement au survol de la souris d'éléments à droite et à gauche de l'horloge.
-- Ajouter de la dynamique à la couleur de fond de l'application pour un effet de gradient et de mouvement.
+- Ajouter de la dynamique à la couleur de fond de l'application pour un effet de mouvement.
 - Ajouter un effet de flou entre le fond de l'horloge et le fond de l'application pour un effet de mouvement subtil.
 
 ## Mise en Place
