@@ -2,7 +2,7 @@
 
 ![image](https://github.com/V4l3R/alarmManager-electron/assets/19760437/01e6fd0b-fba8-4133-bb52-afb0f8d7a0de)
 
-Table des Matières
+Table des matières
 
 - [Structure](#structure)
 - [Améliorations Possibles](#améliorations-possibles)
