@@ -1,5 +1,7 @@
 # Clock & Alarms
 
+![image](https://github.com/V4l3R/alarmManager-electron/assets/19760437/01e6fd0b-fba8-4133-bb52-afb0f8d7a0de)
+
 Table des Matières
 
 - [Structure](#structure)
@@ -48,9 +50,9 @@ Le projet se compose de deux parties distinctes :
   - `style/App.css` : Contient tous les styles de l'application, généré par Tailwind CSS à partir du fichier 'index.css'.
   - `style/index.css` : Contient l'ensemble des styles, lu par Tailwind CSS pour générer le fichier 'App.css' avec les styles finaux.
 
-## Améliorations Possibles
+## Améliorations possibles
 
-### Niveau Fonctionnalités
+### Niveau fonctionnalités
 
 - Ajouter une sonnerie lors du déclenchement de l'alarme.
 - Permettre la simultanéité des alarmes.
@@ -58,13 +60,13 @@ Le projet se compose de deux parties distinctes :
 - Envoyer des notifications système (si possible).
 - Permettre à l'utilisateur de personnaliser la durée de l'alarme ou le délai avant qu'une future alarme devienne rouge.
 
-### Niveau Design
+### Niveau design
 
-- Afficher les listes d'alarmes uniquement au survol de la souris d'éléments à droite et à gauche de l'horloge.
+- Afficher les listes d'alarmes uniquement au survol/clic d'éléments à droite et à gauche de l'horloge.
 - Ajouter de la dynamique à la couleur de fond de l'application pour un effet de mouvement.
 - Ajouter un effet de flou entre le fond de l'horloge et le fond de l'application pour un effet de mouvement subtil.
 
-## Mise en Place
+## Mise en place
 
 L'application nécessite les prérequis suivants :
 
